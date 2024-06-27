@@ -1,131 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Portfolio Web </title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   
 </head>
+
 <body>
-    
+
     <div class="navbar">
-        <h2>AshishWeb</h2>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Skill</a></li>
-            <li><a href="#">portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">About</a></li>
-        </ul>
-        <button class="hire-btn">Hire Me</button>
+        <div data-aos="zoom-in-up">
+            <h2>AshishWeb</h2>
+        </div>
+        <div data-aos="zoom-out-down">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Skill</a></li>
+                <li><a href="#">portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+
+        <div data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+            <button class="hire-btn">Hire Me</button>
+        </div>
     </div>
 
     <div class="main">
-        <h4>Hi, I am <span>Ashish </span></h4>
-        <p class="title">Creative Fullstack Web Developer</p>
-        <p class="subtitle">I'm Designe and Code Beautifully Simple Things And I love What I doing ! </p>
-        <img src="logo.png">
-    </div>
+        <div data-aos="fade-up">
+            <h4>Hi, I am <span>Ashish </span></h4>
+        </div>
+        <div data-aos="fade-down">
+            <p class="title"> I Am A  <span class="auto-type"></span></p>
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+            <script src="script.js"></script> 
+        </div>
+        <div data-aos="fade-up-right">
+            <p class="subtitle">I'm Designe and Code Beautifully Simple Things And I love What I doing ! </p>
+        </div>
 
-    <div class="guarantee">
-        <div class="item">
-            <div class="icon">
-                <i class='bx bx-check-shield'></i>
-            </div>
-            <div class="info">
-                <h3>+5</h3>
-                <p>Years Of Exprience</p>
-            </div>
-            <i class='bx bx-chevron-right' ></i>
-        </div>
-        <div class="item">
-            <div class="icon">
-                <i class='bx bx-check-circle' ></i>
-            </div>
-            <div class="info">
-                <h3>+100</h3>
-                <p>Completed Projects</p>
-            </div>
-            <i class='bx bx-chevron-right' ></i>
-        </div>
-        <div class="item">
-            <div class="icon">
-                <i class='bx bx-laugh' ></i>
-            </div>
-            <div class="info">
-                <h3>+50</h3>
-                <p>Happy Client</p>
-            </div>
-            <i class='bx bx-chevron-right' ></i>
+        <div data-aos="fade-up" data-aos-duration="3000">
+            <img src="logo.png">
         </div>
     </div>
 
-    <h5 class="seprator">Who I Am</h5>
+
+    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+        <div class="guarantee">
+            <div class="item">
+                <div class="icon">
+                    <i class='bx bx-check-shield'></i>
+                </div>
+                <div class="info">
+                    <h3>+5</h3>
+                    <p>Years Of Exprience</p>
+                </div>
+                <i class='bx bx-chevron-right'></i>
+            </div>
+            <div class="item">
+                <div class="icon">
+                    <i class='bx bx-check-circle'></i>
+                </div>
+                <div class="info">
+                    <h3>+100</h3>
+                    <p>Completed Projects</p>
+                </div>
+                <i class='bx bx-chevron-right'></i>
+            </div>
+            <div class="item">
+                <div class="icon">
+                    <i class='bx bx-laugh'></i>
+                </div>
+                <div class="info">
+                    <h3>+50</h3>
+                    <p>Happy Client</p>
+                </div>
+                <i class='bx bx-chevron-right'></i>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div data-aos="fade-up-right">
+        <h5 class="seprator">Who I Am</h5>
+    </div>
     <div class="about">
-        <img src="image.png">
+        <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+            <img src="image.png">
+        </div>
         <div class="info">
-            <h3>About Me </h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus natus excepturi, consequuntur odit voluptas quibusdam quidem debitis ducimus magni, cumque ea velit tenetur soluta ratione. Harum quo velit reiciendis ipsa!</p>
-            <button class="hire-btn"></button>
+            <div data-aos="fade-left">
+                <h3>About Me </h3>
+            </div>
+            <div data-aos="fade-up-left">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus natus excepturi,
+                    consequuntur odit voluptas quibusdam quidem debitis ducimus magni, cumque ea velit tenetur soluta
+                    ratione. Harum quo velit reiciendis ipsa!</p>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="3000">
+                <button class="hire-btn">hire me </button>
+            </div>
         </div>
     </div>
 
-    <h5 class="seprator">My Skills</h5>
+    <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <h5 class="seprator">My Skills</h5>
+    </div>
 
     <div class="skills">
         <div class="left">
             <div class="info">
-                <h3>What My Programing Skills Include</h3>
-                <p>
-                    I Developer Simple, intutive and responsive user 
-                    interface that helps user get things done 
-                    with less effort and time with those techonology 
-                </p>
+                <div data-aos="fade-up">
+                    <h3>What My Programing Skills Include</h3>
+                </div>
+                <div data-aos="fade-down">
+                    <p>
+                        I Developer Simple, intutive and responsive user
+                        interface that helps user get things done
+                        with less effort and time with those techonology
+                    </p>
+                </div>
+
             </div>
-            <button class="hire-btn">Hire Me</button>
+            <div data-aos="flip-right"><button class="hire-btn">Hire Me</button></div>
         </div>
 
-        <div class="right">
-            <div class="item">
-                <i class='bx bxl-html5'></i>
-            </div>
-            <div class="item">
-                <i class='bx bxl-css3'></i>
-            </div>
-            <div class="item">
-                <i class='bx bxl-bootstrap' ></i>
-            </div>
-            <div class="item">
-                <i class='bx bxl-react' ></i>
-            </div>
-            <div class="item">
-                <i class='bx bxl-javascript' ></i>
-            </div>
-            <div class="item">
-                <i class='bx bxl-mongodb' ></i>
-            </div>
-            <div class="item">
-                <i class='bx bxl-github' ></i>
-            </div>
-            <div class="item">
-                <i class='bx bxl-nodejs' ></i>
-            </div>
-            <div class="item">
-                <i class='bx bxl-php' ></i>
+        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="right">
+                <div class="item">
+                    <i class='bx bxl-html5'></i>
+                </div>
+                <div class="item">
+                    <i class='bx bxl-css3'></i>
+                </div>
+                <div class="item">
+                    <i class='bx bxl-bootstrap'></i>
+                </div>
+                <div class="item">
+                    <i class='bx bxl-react'></i>
+                </div>
+                <div class="item">
+                    <i class='bx bxl-javascript'></i>
+                </div>
+                <div class="item">
+                    <i class='bx bxl-mongodb'></i>
+                </div>
+                <div class="item">
+                    <i class='bx bxl-github'></i>
+                </div>
+                <div class="item">
+                    <i class='bx bxl-nodejs'></i>
+                </div>
+                <div class="item">
+                    <i class='bx bxl-php'></i>
+                </div>
             </div>
         </div>
+
+
 
     </div>
 
 
     <footer>
+
+        <div data-aos="flip-up"></div>
         <div class="start">
-            <h3>Start a project</h3>
-            <p>intersted in working Together ? We sholud queue up a 
-                chat. I'll buy the coffee.
-            </p>
-            <button>Let's Do this </button>
+            <div data-aos="fade-right">
+                <h3>Start a project</h3>
+            </div>
+            <div data-aos="fade-down">
+                <p>intersted in working Together ? We sholud queue up a
+                    chat. I'll buy the coffee.
+                </p>
+            </div>
+            <div data-aos="fade-left"><button>Let's Do this </button></div>
         </div>
 
         <div class="cols">
@@ -165,5 +221,13 @@
 
     </footer>
 
+    
+ 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
+
 </html>
