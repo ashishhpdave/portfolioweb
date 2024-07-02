@@ -112,7 +112,7 @@ body{
 }
 
 .guarantee .item{
-    background: #292b2e;
+    /* background: #292b2e; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -123,6 +123,10 @@ body{
     border: 1px solid transparent;
     cursor: pointer;
     transition: all 0.3s ease-in;
+    border-radius: 22px;
+    background: #292b2e;
+    box-shadow:  31px 31px 80px #151617,
+                 -31px -31px 80px #3d4045;
 }
 
 
